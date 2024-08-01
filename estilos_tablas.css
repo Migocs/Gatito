@@ -1,0 +1,50 @@
+/* Estilos para el contenedor principal */
+#contenedor {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la cabecera */
+#cabecera {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el enlace */
+#contenido a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#contenido a:hover {
+    background-color: #0056b3;
+}

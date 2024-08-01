@@ -1,0 +1,43 @@
+/* estilos.css */
+
+/* Estilo general de la tabla */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Encabezados de columna */
+th {
+    background-color: #4358b8; /* Color de fondo verde */
+    color: white;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+/* Estilo de las celdas */
+td {
+    padding: 8px 15px;
+}
+
+/* Filas alternadas */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo gris claro para filas pares */
+}
+
+/* Hover sobre las filas */
+tr:hover {
+    background-color: #e7f2f7; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilo para el primer td (código, por ejemplo) */
+td:first-child {
+    font-weight: bold; /* Texto en negrita para la primera columna */
+}
+
+/* Estilo para el último td (turno, por ejemplo) */
+td:last-child {
+    font-style: italic; /* Texto en cursiva para la última columna */
+}
